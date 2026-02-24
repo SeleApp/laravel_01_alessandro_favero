@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title1 desc1">
+  <title id="title1">Cinema Poster 1</title>
+  <desc id="desc1">Poster illustrativo per Cinema Blog</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g1)"/>
+  <circle cx="220" cy="170" r="90" fill="#f59e0b" opacity="0.9"/>
+  <text x="80" y="430" fill="#f9fafb" font-size="78" font-family="Arial, Helvetica, sans-serif" font-weight="700">CINEMA BLOG</text>
+  <text x="80" y="500" fill="#d1d5db" font-size="42" font-family="Arial, Helvetica, sans-serif">Retro Review Collection</text>
+</svg>

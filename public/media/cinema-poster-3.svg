@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title3 desc3">
+  <title id="title3">Cinema Poster 3</title>
+  <desc id="desc3">Poster illustrativo per top list</desc>
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g3)"/>
+  <polygon points="980,120 1120,120 1120,260" fill="#fbbf24" opacity="0.85"/>
+  <text x="90" y="400" fill="#fffbeb" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="700">TOP CINEMA LIST</text>
+  <text x="90" y="472" fill="#fed7aa" font-size="40" font-family="Arial, Helvetica, sans-serif">Selezione redazionale</text>
+</svg>

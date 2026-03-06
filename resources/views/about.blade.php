@@ -1,29 +1,48 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi siamo - Moviemania</title>
 
-@section('title', 'Chi siamo | Moviemania')
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="/">Moviemania</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/chi-siamo">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/contatti">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-@section('content')
-    <div class="container-fluid p-0">
-        <div class="container-fluid header sub-hero position-relative mb-5">
-            <div class="row h-100 align-items-center text-center position-relative">
-                <div class="col-12">
-                    <h1 class="display-3 text-light fw-bold">Chi siamo</h1>
-                    <p class="lead text-white-50">Una squadra di appassionati di cinema che racconta storie ogni giorno.</p>
-                </div>
+    <div class="container-fluid header">
+        <div class="row h-100 justify-content-around align-items-center">
+            <div class="col-12 col-md-6">
+                <h2 class="text-white text-center text-shadow-custom">Chi siamo</h2>
+                <p class="text-white text-shadow-custom">
+                    Siamo un team appassionato di cinema e contenuti multimediali.
+                    Il nostro obiettivo è condividere recensioni, curiosità e approfondimenti
+                    sui film più interessanti.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-4 text-center">
+                <img src="/media/team.jpeg" alt="Foto del team" class="img-fluid rounded shadow">
             </div>
         </div>
     </div>
-
-    <div class="container text-light">
-        <div class="row g-4 align-items-center">
-            <div class="col-md-6">
-                <h2 class="mb-3">La storia di Moviemania</h2>
-                <p>Moviemania nasce come blog indipendente dedicato ai film che emozionano, sorprendono e fanno discutere. Ogni recensione è pensata per darti un quadro rapido ma completo, con curiosità e retroscena di produzione.</p>
-                <p class="mb-0">Collaboriamo con autori, studenti di cinema e cinefili da tutta Italia per offrire consigli affidabili e rubriche tematiche. Se vuoi scrivere con noi, contattaci: la community è sempre aperta.</p>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="/media/team.jpeg" class="img-fluid rounded shadow" alt="Il team di Moviemania">
-            </div>
-        </div>
-    </div>
-@endsection
+</body>
+</html>

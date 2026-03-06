@@ -1,103 +1,28 @@
-/* Stile generale del sito Moviemania */
-:root {
-    --bg-dark: #0b0d1a;
-    --accent: #f5c518;
-}
-
-body {
-    background-color: var(--bg-dark);
-    color: #f8f9fa;
-    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-}
-
-.navbar .nav-link {
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: #e9ecef;
-}
-
-.navbar .nav-link.active,
-.navbar .nav-link:hover {
-    color: #ffffff !important;
-}
-
-.navbar .nav-link.active {
-    border-bottom: 2px solid var(--accent);
-}
-
-.header {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url('/media/header.jpg');
+.header{
+    background-image: url('/media/header.jpg');
+    height: 95vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
-    position: relative;
 }
 
-.sub-hero {
-    height: 60vh;
+.text-shadow-custom{
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
-.header .row {
-    position: relative;
-    z-index: 2;
-}
-
-.header::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
-    z-index: 1;
-}
-
-.header h1 {
-    text-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
-}
-
-.section-title {
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #adb5bd;
-}
-
-.box {
+.box-custom{
     border: 2px dotted white;
     min-height: 250px;
     max-width: 250px;
     transition: all 0.5s;
     cursor: pointer;
-    border-radius: 1rem;
-    background: rgba(255, 255, 255, 0.04);
-    color: #ffffff;
 }
 
-.box:hover {
+.box-custom:hover{
     border: 3px solid white;
     transform: translateY(-10px);
-    background: rgba(255, 255, 255, 0.08);
 }
 
-.icon {
+.icon-custom{
     font-size: 50px;
-}
-
-.card, .bg-black.bg-opacity-50 {
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(4px);
-}
-
-img.rounded.shadow {
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
-}
-
-@media (max-width: 768px) {
-    .header {
-        height: 75vh;
-    }
-
-    .box {
-        max-width: none;
-        width: 100%;
-    }
 }

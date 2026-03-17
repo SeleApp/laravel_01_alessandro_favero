@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-white" href="/">Moviemania</a>
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-camera-reels-fill"></i>
+            </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -30,26 +32,42 @@
     </nav>
 
     <div class="container-fluid header">
-        <div class="row h-25 justify-content-center align-items-center">
-            <div class="col-12 text-center">
-                <h2 class="text-white display-5 text-shadow-custom">Contattaci</h2>
-            </div>
-        </div>
-
-        <div class="row h-75 justify-content-around align-items-center">
-            <div class="col-10 col-md-3 box-custom d-flex flex-column justify-content-center align-items-center text-white text-center">
-                <i class="bi bi-whatsapp icon-custom"></i>
-                <p class="mt-3">Scrivici su WhatsApp</p>
+        <div class="row h-100 justify-content-around align-items-center">
+            <div class="col-12 h-25 d-flex justify-content-center align-items-center">
+                <h2 class="text-white display-5 text-color text-center">Contattaci</h2>
             </div>
 
-            <div class="col-10 col-md-3 box-custom d-flex flex-column justify-content-center align-items-center text-white text-center">
-                <i class="bi bi-instagram icon-custom"></i>
-                <p class="mt-3">Seguici su Instagram</p>
+            <div class="col-3 box d-flex flex-column justify-content-center align-items-center text-white text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <i class="bi bi-whatsapp icon"></i>
+                    </div>
+                    <div class="col-12">
+                        <p>Scrivici su WhatsApp</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="col-10 col-md-3 box-custom d-flex flex-column justify-content-center align-items-center text-white text-center">
-                <i class="bi bi-facebook icon-custom"></i>
-                <p class="mt-3">Seguici su Facebook</p>
+            <div class="col-3 box d-flex flex-column justify-content-center align-items-center text-white text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <i class="bi bi-instagram icon"></i>
+                    </div>
+                    <div class="col-12">
+                        <p>Seguici su Instagram</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3 box d-flex flex-column justify-content-center align-items-center text-white text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <i class="bi bi-facebook icon"></i>
+                    </div>
+                    <div class="col-12">
+                        <p>Seguici su Facebook</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -6,11 +6,11 @@
     background-size: cover;
 }
 
-.text-shadow-custom{
+.text-color{
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
-.box-custom{
+.box{
     border: 2px dotted white;
     min-height: 250px;
     max-width: 250px;
@@ -18,11 +18,11 @@
     cursor: pointer;
 }
 
-.box-custom:hover{
+.box:hover{
     border: 3px solid white;
     transform: translateY(-10px);
 }
 
-.icon-custom{
+.icon{
     font-size: 50px;
 }
